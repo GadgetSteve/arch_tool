@@ -4,7 +4,6 @@ arch-tool
 
 .. image:: python-powered-w.svg
         :target: https://www.python.org/
-        :width:80
         :alt: Powered By Python
 
 .. image:: https://img.shields.io/pypi/v/arch_tool.svg
