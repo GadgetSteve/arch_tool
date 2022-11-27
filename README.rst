@@ -2,6 +2,8 @@
 arch-tool
 =========
 
+.. image:: python-powered-w.svg
+        :target: https://www.python.org/
 
 .. image:: https://img.shields.io/pypi/v/arch_tool.svg
         :target: https://pypi.python.org/pypi/arch_tool
@@ -30,7 +32,17 @@ Arch Tool is intended to provide an archive type independent interface for perfo
 Features
 --------
 
-* TODO
+* Just about everything is TODO at the moment.
+* Cross Platform
+* Consistent interface across zip, tar, tar.gz, xz. etc/
+* Create archives with a simple mechanism for defining new paths & names
+* Modify file permissions (where appropriate)
+* List an existing archives contents
+* Extract single file or wildcard matches
+* Display (cat) file(s) from within an archive
+* Search multiple archives for a given filename
+* Grep/Grin within archives
+* Generate &/or validate hash files
 
 Credits
 -------
@@ -39,3 +51,4 @@ This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypack
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+.. _Python: Used througout
