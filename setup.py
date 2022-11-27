@@ -44,6 +44,10 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/GadgetSteve/arch_tool',
-    version='0.1.0',
+    # This section is to trigger the use of setuptools_scm to automate version numbers.
+    use_scm_version=True,
+    setup_requires=[
+        "setuptools_scm",
+    ],
     zip_safe=False,
 )
