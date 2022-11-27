@@ -4,12 +4,17 @@ arch-tool
 
 .. image:: python-powered-w.svg
         :target: https://www.python.org/
+        :width:80
+        :alt: Powered By Python
 
 .. image:: https://img.shields.io/pypi/v/arch_tool.svg
         :target: https://pypi.python.org/pypi/arch_tool
+        :alt: PyPi Status
+
 
 .. image:: https://img.shields.io/travis/GadgetSteve/arch_tool.svg
         :target: https://travis-ci.com/GadgetSteve/arch_tool
+        :alt: Travis Status
 
 .. image:: https://readthedocs.org/projects/arch-tool/badge/?version=latest
         :target: https://arch-tool.readthedocs.io/en/latest/?version=latest
